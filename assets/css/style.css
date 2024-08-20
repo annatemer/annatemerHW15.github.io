@@ -32,7 +32,7 @@ input:valid + small + small {
 }
 
 .forma {
-    width: 25%;
+    width: 70%;
     margin: 40px auto;
     padding: 30px;
     display: flex;
@@ -69,4 +69,18 @@ button > p {
     margin: 0px;
     padding: 5px;
     background-color: darkgrey;
+}
+
+@media (min-width:576px) {
+    .forma {
+        width: 50%;
+    }
+
+}
+
+@media (min-width:768px) {
+    .forma {
+        width: 35%;
+    }
+
 }
